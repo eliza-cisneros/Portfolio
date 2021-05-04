@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica", "Arial", sans-serif;
+  }
+
+
+h1 {
+      padding: 50px;
+      border-bottom: 1px solid #5D6063;
+      margin-bottom: 50px;
+      background-color: #DDE0E3;    /* Light gray */
+      text-align: center;
+  }
+
+.section-title {
+    color: darkslategrey;        /* dark slate gray */
+    font-style: italic;
+    font-size: 28px;
+}
+
+#section-2 {
+    color:darkviolet
+}
+
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .menu-item {
+    float: left;
+  }
+  
+  .menu-item {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  .menu-item:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: aqua;
+  }
+
+  .menu-item {
+    border-right: 1px solid #bbb;
+  }
+  
+  .menu-item:last-child {
+    border-right: none;
+  }
